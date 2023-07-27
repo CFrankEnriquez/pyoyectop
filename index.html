@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" class="re">
+    <title>Document</title>
+</head>
+
+<body> 
+
+    <form action="" class="mostrar" id="formulario">
+        <h1>Inicio de seccion</h1>
+        
+        <input type="email" id="txtEmail" placeholder="Ingresa tu email">
+        <br><br>
+        <input type="password" id="txtPassword" placeholder="Ingresa tu password" >
+        <br><br>
+        <input type="button" value="Registrar" id="btnRegistrar" class="boton">
+        <br><br>
+        <input type="button" value="Ingresar" id="btnIngresar" class="boton">
+        <br><br>
+        <button type="button" value="Login Google" id="btnGoogle"> <img src="img/images.jpg" height ="50" width="80px" /></button>
+        <button type="button"> <img src="img/facebook_fanpages.png" height ="50" width="80px"/></button>
+        <img src="https://wotpack.ru/wp-content/uploads/2022/12/Oblozhka-4.jpg" class="imga" width="600px" >
+
+    </form>
+
+    
+    <div class="contenidoDeLaWeb ocultar" id="contenidoDeLaWeb">
+        <input type="button" value="Cerrar cuenta" id="btnCerrarSesion" style="background-color: rgb(111, 0, 255);">
+        <h3>Personajes en Meta de la temporada</h3>
+        <img src="https://s1.zerochan.net/Ningguang.600.3643612.jpg" class="imglion" width="300px" >
+        <div class="resultado" id="resultado"> 
+        </div>
+       
+        <div id="comentarios">
+            <br><br>
+            <input type="text" placeholder="Escribe el titulo" id="txtTitulo">
+            <br><br>
+            <input type="text" placeholder="Escribe la descricion" id="txtDescripcion">
+            <br><br>
+            <input type="button" value="Publicar" id="btnPublicar" style="background-color: chartreuse;">
+            <ul id="imprimirComentariosEnPantalla"></ul>  
+            
+        </div>
+    </div>
+    
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js">  </script> 
+    <script src="main.js">  </script>
+</body>
+
+</html>

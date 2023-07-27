@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;.ocultar{
+    display:none;
+}
+}
+.mostrar{
+    display: block;
+}
+
+
+
+div{ border:4px solid; color: rgb(1, 19, 8);
+width:560px ;
+height: 318px;
+margin:10px auto;
+}
+
+body{
+    background-color: gainsboro;
+   
+}
+
+.boton{
+   background:transparent;
+   font-weight:bold;
+   color:#444;
+   font-size:1rem;
+   padding:1rem 1.5rem;
+   border:2px solid #eee;
+   border-radius: 5rem;
+   cursor:pointer;
+   transition: all 1s ease;
+   box-shadow: .5rem .5rem 1rem#ccc,-.5rem -.5rem 1rem#fff;
+    }
+    boton :hover{
+        box-shadow:.5rem .5rem 1rem#fff,-.5rem -.5rem 1rem#ccc;
+
+    }
+    boton :active{
+        box-shadow: inset.2rem .2rem 1rem#fff,inset.2rem -.2rem 1rem#ccc;
+        
+    }
+    .info{
+        background-image: url(img/ningguang-genshin-impact.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 158px 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .info hr{
+        width: 55px;
+        border: 4px solid #fff;
+        margin: 178px;
+        margin-bottom: 25px;
+    }
+    .infort{
+        display: flex;
+        flex-direction: column;
+    }
+    .infort a{
+        color: #080101;
+        text-decoration:none;
+        font-size: 15px;
+        margin-bottom: 35px;
+    
+    }

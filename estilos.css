@@ -1,0 +1,71 @@
+.ocultar {
+    display: none;
+}
+.boton{
+    background:transparent;
+    font-weight:bold;
+    color:#444;
+    font-size:1rem;
+    padding:1rem 1.5rem;
+    border:2px solid #eee;
+    border-radius: 5rem;
+    cursor:pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem#ccc,-.5rem -.5rem 1rem#fff;
+     }
+     boton :hover{
+         box-shadow:.5rem .5rem 1rem#fff,-.5rem -.5rem 1rem#ccc;
+ 
+     }
+     boton :active{
+         box-shadow: inset.2rem .2rem 1rem#fff,inset.2rem -.2rem 1rem#ccc;
+         
+     }
+.mostrar {
+    display: block;
+}
+.ima{
+    width: 50px;
+    height: 50px;
+}
+.ima2{
+    width: 50px;
+    height: 50px;
+}
+.resultado{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.producto{
+    text-align: center;
+    width: 319px;
+    padding-left:1px;
+    background-color: yellow;
+    margin:5px;
+    border-color:black;
+}
+img{
+    padding-left: center;
+}
+.listarDatos{
+    background-color: rgb(32, 218, 162);
+    border-radius: 6px;
+    width: 940px;
+}
+h1{
+    text-align: center;
+    background-color: rgb(0, 255, 55);
+}
+h2{
+    text-align: center;
+    background-color: rgb(50, 143, 205);
+}
+
+.imga{
+    padding-top: 50px;
+    padding-left: 270px;
+}
+.imglion{
+    padding-left: 400px;
+}
